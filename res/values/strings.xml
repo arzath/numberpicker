@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NumberPicker Sample</string>
+    <string name="menu_preferences_label">Preferences</string>
+    <string name="menu_dialog_label">Open as dialog</string>
+	<string name="title_activity_number_picker_sample">NumberPicker Sample</string>
+	
+</resources>

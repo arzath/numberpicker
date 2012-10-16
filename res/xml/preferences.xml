@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:picker="example.android.numberpickersample"
+                  xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <example.android.numberpicker.NumberPickerPreference
+            android:key="demo.preference"
+            android:title="Sample Number Picker"
+            android:summary="Number picker as a preference"
+            picker:defaultValue="15"
+            picker:startRange="-50"
+            picker:endRange="50" />
+
+</PreferenceScreen>
