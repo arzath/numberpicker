@@ -8,6 +8,10 @@
 package example.android.numberpickersample;
 
 public final class R {
+    public static final class array {
+        public static final int listArray=0x7f070000;
+        public static final int listValues=0x7f070001;
+    }
     public static final class attr {
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
@@ -121,34 +125,42 @@ containing a value of this type.
         public static final int numberpicker_up_selected=0x7f02002f;
     }
     public static final class id {
-        public static final int decrement=0x7f080007;
-        public static final int increment=0x7f080005;
-        public static final int menu_dialog_item=0x7f08000a;
-        public static final int menu_preferences_item=0x7f080009;
-        public static final int num_picker=0x7f080000;
-        public static final int num_picker2=0x7f080001;
-        public static final int num_picker3=0x7f080002;
-        public static final int num_picker_name=0x7f080004;
-        public static final int number_display=0x7f080003;
-        public static final int pref_num_picker=0x7f080008;
-        public static final int timepicker_input=0x7f080006;
+        public static final int BackgroundImageView=0x7f090005;
+        public static final int bar=0x7f090003;
+        public static final int decrement=0x7f090009;
+        public static final int increment=0x7f090007;
+        public static final int menu_dialog_item=0x7f09000c;
+        public static final int menu_preferences_item=0x7f09000b;
+        public static final int num_picker=0x7f090000;
+        public static final int num_picker2=0x7f090001;
+        public static final int num_picker3=0x7f090002;
+        public static final int num_picker_name=0x7f090006;
+        public static final int number_display=0x7f090004;
+        public static final int pref_num_picker=0x7f09000a;
+        public static final int timepicker_input=0x7f090008;
     }
     public static final class layout {
         public static final int dialog_number_picker=0x7f030000;
         public static final int main=0x7f030001;
-        public static final int number_picker=0x7f030002;
-        public static final int pref_number_picker=0x7f030003;
+        public static final int music_list_layout=0x7f030002;
+        public static final int number_picker=0x7f030003;
+        public static final int pref_number_picker=0x7f030004;
     }
     public static final class menu {
-        public static final int menu_sample_picker=0x7f070000;
+        public static final int menu_sample_picker=0x7f080000;
     }
     public static final class string {
         public static final int app_name=0x7f050003;
+        public static final int confirm_kill_cancel=0x7f05000a;
+        public static final int confirm_kill_ok=0x7f050009;
+        public static final int confirm_kill_service=0x7f050008;
         public static final int dialog_cancel=0x7f050001;
         public static final int dialog_picker_title=0x7f050002;
         public static final int dialog_set_number=0x7f050000;
         public static final int menu_dialog_label=0x7f050005;
         public static final int menu_preferences_label=0x7f050004;
+        public static final int music_picking_preference=0x7f05000b;
+        public static final int time_up=0x7f050007;
         public static final int title_activity_number_picker_sample=0x7f050006;
     }
     public static final class style {
@@ -159,7 +171,8 @@ containing a value of this type.
         public static final int Theme_Sample=0x7f060004;
     }
     public static final class xml {
-        public static final int preferences=0x7f040000;
+        public static final int preference_settings=0x7f040000;
+        public static final int preferences=0x7f040001;
     }
     public static final class styleable {
         /** Attributes that can be used with a numberpicker.

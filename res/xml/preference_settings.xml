@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:picker="http://schemas.android.com/apk/res/example.android.numberpickersample"
+                  xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference 
+        android:title="Background Source"
+        android:summary="Choose background source."
+        android:key="sdPref"
+        android:defaultValue="sdcard"
+        android:entries="@array/listArray"
+        android:entryValues="@array/listValues" />
+    
+    <example.android.numberpickersample.MusicSelectingPreference
+	    android:key="music_selection_provider_key"
+	    android:title="Alarm Music"
+	    android:summary="Choose music to play when time's up."
+	/>
+	
+    <example.android.numberpicker.NumberPickerPreference
+            android:key="demo.preference"
+            android:title="Sample Number Picker"
+            android:summary="Number picker as a preference"
+            picker:defaultValue="15"
+            picker:startRange="4"
+            picker:endRange="99" />
+
+</PreferenceScreen>

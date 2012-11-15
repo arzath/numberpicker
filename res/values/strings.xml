@@ -5,5 +5,10 @@
     <string name="menu_preferences_label">Preferences</string>
     <string name="menu_dialog_label">Open as dialog</string>
 	<string name="title_activity_number_picker_sample">NumberPicker Sample</string>
-	
+	<string name="time_up">Time\'s Up!</string>
+	<string name="confirm_kill_service">Dismiss?</string>
+	<string name="confirm_kill_ok">OK</string>
+	<string name="confirm_kill_cancel">Cancel</string>
+	<string name="music_picking_preference">Select alarm music</string>
+	    
 </resources>
